@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />  <!-- adjusting the layout to fit the screen width -->
+    <title>Bootstrap demo</title>
+<!-- Bootstrap CSS link-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+<!-- Bootstrap JS scripts for the responsive design and interactive behavior-->
+    <script
+      defer  
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+<!-- Navbar Section -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light px-5">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <div class="d-flex align-items-center">
+        <img class="logo-img img-fluid" src="logo.svg" alt="robot logo" style="width: 30px;">
+        <h6 class="mb-0">GameHub</h6>
+      </div>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+      aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">   <!-- justify-content-end for pushing nav-items to the right -->
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Products</a>
+        </li>
+      </ul>
+      <button class="btn btn-primary btn-sm" type="submit">Sign Up</button>
+    </div>
+  </div>
+</nav>
+      
+<!-- Top Content Section -->
+    <div class="text-#36454F p-5" style="background-image: url('m0bg.jpeg'); background-size: cover;">
+        <div class="container">
+            <h1 class="mb-4">Where Gaming Dreams Come to Life!</h1>
+            <p class="mb-4">Unlock Your Gaming Potential and Dominate the Virtual Worlds!</p>
+    
+            <div class="row">
+                <div class="col-md d-md-flex">
+                    <div class="input-group mb-2 mb-md-0">
+                        <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                    </div>
+
+                    <div class="d-grid gap-2 "></div>
+                    <button class="btn btn-primary">Search</button>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    
+<!-- Card Items Section -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" 
+                    src="https://www.pbtech.co.nz/imgprod/G/A/GAMSNY5504__1.jpg?h=2863326776"
+                        alt="Card Image 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Sony PS5 Playstation 5</h5>
+                        <p class="card-text">Custom RDNA 2 (10.28 TFLOPs, 36 CUs at 2.23GHz)
+                            16GB GDDR6/256-bit</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top"
+                        src="https://www.pbtech.co.nz/imgprod/default/G/A/GAMMST1602__4.webp?h=3491736818"
+                        alt="Card Image 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Microsoft Xbox Series S</h5>
+                        <p class="card-text">CPU. 8X Cores @ 3.6 GHz (3.4 GHz w/SMT) Custom Zen 2 CPU
+                            GPU. 4 TFLOPS, 20 CUs @1.565 GHz</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top"
+                        src="https://www.pbtech.co.nz/imgprod/W/K/WKSMSI5735838A__1.jpg?h=3601696195"
+                        alt="Card Image 3">
+                    <div class="card-body">
+                        <h5 class="card-title">MSI MAG Infinite S3</h5>
+                        <p class="card-text">Intel Core i7 13700F 16 Core - 16GB DDR5 RAM - 1TB SSD - AX WiFi 6 +
+                            Bluetooth - Nvidia RTX 4060 8GB</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
